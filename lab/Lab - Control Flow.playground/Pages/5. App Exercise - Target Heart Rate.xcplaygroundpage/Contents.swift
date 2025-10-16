@@ -10,12 +10,20 @@
 let targetLowerBound = 70
 let targetUpperBound = 90
 
-let currentAverage = 67
+//let currentAverage = 67
 //let currentAverage = 85
-//let currentAverage = 95
+let currentAverage = 95
 
 //insert your code here
-
+if currentAverage < targetLowerBound{
+    print("You need to study more often")
+}
+if currentAverage > targetUpperBound{
+    print("You're right on track")
+}
+if currentAverage > targetLowerBound && currentAverage < targetUpperBound{
+    print("You're doing great, but try to push it a bit")
+}
 //print the results from each current average here.
 
 
